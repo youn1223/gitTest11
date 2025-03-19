@@ -16,8 +16,9 @@ public class AlbumDeleteController {
 	@Autowired
 	AlbumDao albumDao;
 	//albumList.jsp에서 삭제
-	// kim 이 수정함 한줄 더 추가함
+	// master가 수정함 한줄 더 추가함
 	// kim이 한줄 추가함
+	// master가 한줄 추가함
 	
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
