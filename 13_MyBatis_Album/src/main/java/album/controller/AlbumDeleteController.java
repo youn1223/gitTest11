@@ -19,7 +19,7 @@ public class AlbumDeleteController {
 	// master가 수정함 한줄 더 추가함
 	// kim이 kim kim 한줄 추가함
 	// master가 한줄 수정함
-	// kim가 한줄 수정함  kim가 한줄 수정함
+	// master가 한줄 수정함  kim가 한줄 수정함
 	
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
