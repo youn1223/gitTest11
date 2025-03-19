@@ -17,7 +17,7 @@ public class AlbumDeleteController {
 	AlbumDao albumDao;
 	//albumList.jsp에서 삭제
 	// master가 수정함 한줄 더 추가함
-	// kim이 한줄 추가함
+	// kim이 kim kim 한줄 추가함
 	// kim가 한줄 수정함
 	
 	@RequestMapping(command)
